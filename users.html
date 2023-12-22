@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my projec</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.css">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css"> 
+
+</head>
+
+<body>
+    <nav class="white darken-1  z-depth-0 top-navbar">
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"
+                    style="color: rgb(95, 92, 92);">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/" style="color: rgb(92, 91, 91)">HOME</a></li>
+                <li><a href="/users.html" style="color: rgb(92, 91, 91);">User Mangement</a></li>
+                <li><a href="htpp://codeyad.com" style="color: rgb(92, 91, 91);">Codeyad</a></li>
+                <li><a href="" style="color: rgb(92, 91, 91);">AQ fast learn</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="/assets/images/nody-عکس-شمع-و-اشک-1627244669.jpg">
+                </div>
+                <a><img class="circle" src="/assets/images/عکس-دختر-کارتونی-برای-پروفایل.jpg-4.jpg"></a>
+                <a><span class="white-text name">hedie nouri</span></a>
+                <a><span class="white-text email">hedienoouri@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>AQ fast learn</a></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>codeyad</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">pages:</a></li>
+        <li><a class="waves-effect" href="/">Home</a></li>
+        <li><a class="waves-effect" href="/users.html">Users</a></li>
+    </ul>
+
+    <section id="top_actions_section" class="row container">
+
+        <div class="col s12 m3 l2">
+            <button id="add_user_button" class="waves-effect waves-light btn grey darken-1" style="width: 100%; border-radius: 25px;">
+                <i class="material-icons">add</i>
+                Add User
+            </button>
+        </div>
+        <div class="row col s12 m9  l8">
+            <div class="input-field col s12 ">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons">search</i>
+                    search
+                </label>
+            </div>
+        </div>
+
+        <div class=" col l2 hide-on-med-and-down"></div>
+    </section>
+
+    <section class="user_list_section">
+        <ul class="collapsible hide-on-med-and-up">
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons user_list_arrow_icon">arrow_drop_down_circle</i>
+                    Hedie Nouri
+                </div>
+                <div class="collapsible-body">
+                    <div style="padding: 5px;">
+                        <span class="bold">Username :</span>
+                        <span>HedieN</span>
+                    </div>
+                    <div style="padding: 5px;">
+                        <span class="bold">Email :</span>
+                        <span>hedienoouri@gmail.com</span>
+                    </div>
+                    <div style="padding: 5px;">
+                        <span class="bold">address :</span>
+                        <span>berlin - example street ...</span>
+                    </div>
+                    <div style="padding: 5px;" class="actionn">
+                        <span class="bold">action :</span>
+                        <i class="material-icons red-text" style="margin: 5px;">delete_forever</i>
+                        <i class="material-icons orange-text darken-3">edit</i>
+                    </div>
+                </div>
+            </li>
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons user_list_arrow_icon">arrow_drop_down_circle</i>
+                    Hedie Nouri
+                </div>
+                <div class="collapsible-body">
+                    <div style="padding: 5px;">
+                        <span class="bold">Username :</span>
+                        <span>HedieN</span>
+                    </div>
+                    <div style="padding: 5px;">
+                        <span class="bold">Email :</span>
+                        <span>hedienoouri@gmail.com</span>
+                    </div>
+                    <div style="padding: 5px;">
+                        <span class="bold">address :</span>
+                        <span>berlin - example street ...</span>
+                    </div>
+                    <div style="padding: 5px;" class="actionn">
+                        <span class="bold">action :</span>
+                        <i class="material-icons red-text" style="margin: 5px;">delete_forever</i>
+                        <i class="material-icons orange-text darken-3">edit</i>
+                    </div>
+                </div>
+            </li>
+            </li>
+        </ul>
+
+
+        <div class="hide-on-med-and-down show-on-medium-and-up container">
+            <table class=" striped centered highlight">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Hedie Nouri</td>
+                        <td>HedieN</td>
+                        <td>example@test.com</td>
+                        <td>berlin-example street ...</td>
+                        <td>
+                            <i class="material-icons orange-text darken-3 hov-pointer" style="margin: 5px;">edit</i>
+                            <i class="material-icons red-text darken-3 hov-pointer">delete_forever</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Hedie Nouri</td>
+                        <td>HedieN</td>
+                        <td>example@test.com</td>
+                        <td>berlin-example street ...</td>
+                        <td>
+                            <i class="material-icons orange-text darken-3 hov-pointer" style="margin: 5px;">edit</i>
+                            <i class="material-icons red-text darken-3">delete_forever</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Hedie Nouri</td>
+                        <td>HedieN</td>
+                        <td>example@test.com</td>
+                        <td>berlin-example street ...</td>
+                        <td>
+                            <i class="material-icons orange-text darken-3" style="margin: 5px;">edit</i>
+                            <i class="material-icons red-text darken-3">delete_forever</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Hedie Nouri</td>
+                        <td>HedieN</td>
+                        <td>example@test.com</td>
+                        <td>berlin-example street ...</td>
+                        <td>
+                            <i class="material-icons orange-text darken-3" style="margin: 5px;">edit</i>
+                            <i class="material-icons red-text darken-3">delete_forever</i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination_container container z-depth-2" style="padding: 9px;">
+            <div class="pagination_item_counts" style="padding: 10px;">
+                showing
+                <span style="margin: 5px; max-width: 50px;">
+                    <input type="number" class="blue-text darken-3" style="border: none; align-items: center;"
+                        value="10">
+                </span>
+                of
+                <span class="blue-text darken-2" style="margin: 5px;">100</span>
+            </div>
+
+            <div class="pagination_buttons">
+                <i class="material-icons grey darken-2 waves-effect waves-light"style="margin: 5px 5px; padding: 5px 5px 1px 3px; border-radius: 12px;">keyboard_arrow_left</i>
+                <i class="material-icons grey darken-2 waves-effect waves-light"style="margin: 5px 5px; padding: 5px 5px 1px 3px; border-radius: 12px;">keyboard_arrow_right</i>
+            </div>
+        </div>
+
+    </section>
+    <!-- 
+    <div class="add_user_modal_back"></div>
+    <div class="add_user_modal container show">
+        <div class="row center-on-small-only" style="padding: 10px 10px 35px 35px;">
+            <h5>
+                <i class="icon-add material-icons" style="margin: 8px 8px;">person_add</i>
+                Add User
+            </h5>
+
+            <form>
+                <div class="input-field col s12">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="username" type="text" class="validate">
+                    <label for="username">Username:</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="Email">Email:</label>
+                </div>
+
+                <button type="button" class="waves-effect waves-light btn grey darken-2"
+                    style="margin-top: 20px ;width: 50%; max-width: 250; border-radius: 30px;">
+                    submit
+
+                </button>
+            </form>
+        </div>
+    </div>
+-->
+    <script src="/assets/materialize/js/materialize.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/users.js"></script>
+</body>
+
+</html>
